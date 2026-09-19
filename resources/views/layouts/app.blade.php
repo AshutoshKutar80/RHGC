@@ -65,6 +65,22 @@
             box-shadow: 0 20px 40px rgba(30, 64, 175, 0.15);
             border-color: var(--accent-gold) !important;
         }
+
+        body {
+            padding-top: 75px;
+        }
+
+        /* Mobile Dropdown Layout Styling */
+        @media (max-width: 991.98px) {
+            .navbar-collapse {
+                background-color: #ffffff;
+                padding: 1rem;
+                border-radius: 0 0 1rem 1rem;
+                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+                max-height: 80vh;
+                overflow-y: auto;
+            }
+        }
     </style>
 </head>
 

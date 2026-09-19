@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg sticky-top bg-white shadow-sm ">
+<nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center gap-2 fw-bold text-dark fs-4" href="{{ route('home') }}">
             <img src="{{ asset('images/logo.png') }}" alt="RHGC Logo" style="height: 55px; width: 120px;">
@@ -29,7 +29,8 @@
                         href="{{ route('contact') }}">Contact</a>
                 </li>
             </ul>
-            <a href="{{ route('contact') }}" class="btn btn-gold ms-lg-3 px-4 rounded-pill">Get Enquire</a>
+            <a href="{{ route('contact') }}" class="btn btn-gold ms-lg-3 px-4 rounded-pill my-2 my-lg-0">Get
+                Enquire</a>
         </div>
     </div>
 </nav>
